@@ -1,16 +1,54 @@
-# React + Vite
+## Shop.ma
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-commerce Artisanat Marocain
 
-Currently, two official plugins are available:
+# Description
+Shop.ma est une application e-commerce développée avec React.
+Elle permet de présenter et vendre des produits artisanaux et traditionnels marocains
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+Ce projet est réalisé dans le cadre du module Développement Front-End avec React
+à l’ISTA Mirleft.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Technologies
 
-## Expanding the ESLint configuration
+React 18
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Vite
+
+JavaScript (ES6)
+
+HTML5
+
+CSS3
+
+Git & GitHub
+
+# Installation
+
+Cloner le projet :
+git clone https://github.com/ayoubjakouri/shop-ma-ayoub-jakouri.git
+
+# Installer les dépendances :
+npm install
+
+# Lancer le serveur :
+npm run dev
+
+# Fonctionnalités
+
+Affichage d’une liste de produits artisanaux
+
+Composants réutilisables (Header, ProductCard, Footer)
+
+Données produits stockées dans un fichier JavaScript
+
+Interface simple et responsive
+
+Base du projet prête pour les prochaines phases
+
+# Auteur
+Nom : Ayoub Jakouri
+Filière : Développement Digital Web Full Stuck
+Établissement : ISTA Mirleft
+Année : 2025 / 2026
