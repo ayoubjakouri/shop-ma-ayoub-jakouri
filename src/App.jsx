@@ -1,5 +1,4 @@
-import { Header, Footer, ProductCard } from './components'
-import products from './data/products'
+import { Header, Footer, ProductsList} from './components'
 import './App.css'
 
 function App() {
@@ -9,14 +8,7 @@ function App() {
 
       <Header />
       <h1>Shop.ma</h1>
-      <div style={{display:'flex',flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-evenly', alignItems: 'center'}}>
-      {products.map((product)=>{
-        return(
-
-          <ProductCard product={product}/>
-        )
-      })}
-      </div>
+      <ProductsList />
       <Footer />
     </>
   )
