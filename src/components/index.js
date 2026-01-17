@@ -1,3 +1,3 @@
 export { default as Header } from './layout/Header'
 export { default as Footer } from './layout/Footer'
-export { default as ProductsList } from './products/ProductsList'
+// export { default as ProductsList } from './products/ProductsList'

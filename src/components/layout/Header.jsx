@@ -1,17 +1,17 @@
+import TopBar from './TopBar'
+import MainNav from './MainNav'
 
-const Header = () => {
-    return(
-        <>
-
-            <nav style={{display:'flex', justifyContent:'space-evenly',  }}>
-                <a href="/Accueil">Accueil</a>
-                <a href="/Produits">Produits</a>
-                <a href="/Panier">Panier</a>
-                <a href="/Contact">Contact</a>
-
-            </nav>
-        </>
-    )
+const Header = ({categories, categorie, updateCategorie}) => {
+  return (
+    <header className="sticky top-0 z-50 shadow-sm">
+      <TopBar />
+      <MainNav
+        categories={categories}
+        categorie={categorie}
+        updateCategorie={updateCategorie}
+      />
+    </header>
+  )
 }
 
 export default Header
